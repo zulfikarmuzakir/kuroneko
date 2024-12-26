@@ -52,7 +52,9 @@ export default defineConfig({
         "fa6-solid": ["*"],
       },
     }),
-    svelte(),
+    svelte({
+      prebundleSvelteLibraries: true
+    }),
     sitemap(),
     Compress({
       CSS: false,

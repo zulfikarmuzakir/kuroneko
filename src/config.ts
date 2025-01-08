@@ -53,13 +53,13 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/kuroneko.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Zulfikharali Muzakir',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  bio: 'For the Glory of Mankind',
   links: [
     {
       name: 'Twitter',
       icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
-                                        // You will need to install the corresponding icon set if it's not already included
-                                        // `pnpm add @iconify-json/<icon-set-name>`
+      // You will need to install the corresponding icon set if it's not already included
+      // `pnpm add @iconify-json/<icon-set-name>`
       url: 'https://twitter.com',
     },
     {
